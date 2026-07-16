@@ -24,7 +24,7 @@ A comprehensive end-to-end healthcare analytics project focused on predicting 30
 ## 📁 Project Structure
 
 ```text
-healthcare-readmission-prediction/
+Healthcare-Readmission-Prediction/
 │
 ├── diabetic_data.csv                  # Raw healthcare dataset
 ├── diabetic_data_cleaned.csv          # Cleaned dataset
