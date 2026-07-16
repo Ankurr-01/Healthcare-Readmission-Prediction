@@ -117,8 +117,8 @@ pip package manager
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/healthcare-readmission-prediction.git
-cd healthcare-readmission-prediction
+git clone https://github.com/Ankurr-01/Healthcare-Readmission-Prediction.git
+cd Healthcare-Readmission-Prediction
 ```
 
 2. **Install dependencies**
@@ -149,12 +149,12 @@ python healthcare_analytics.py
 📦 Dependencies
 
 ```text
-pandas>=2.0.0
-numpy>=1.24.0
-matplotlib>=3.7.0
-seaborn>=0.12.0
-scikit-learn>=1.3.0
-scipy>=1.10.0
+pandas>=1.3.0
+numpy>=1.21.0
+matplotlib>=3.4.0
+seaborn>=0.11.0
+scikit-learn>=1.0.0
+scipy>=1.7.0
 ```
 
 ---
@@ -163,44 +163,44 @@ scipy>=1.10.0
 
 ### Readmission Distribution
 
-![Readmission Distribution](visualizations/01_target_distribution.png)
+![Readmission Distribution](06_visualizations/01_target_distribution.png)
 
 *Distribution of patient readmission outcomes highlighting class imbalance and the proportion of patients readmitted within 30 days.*
 
 ### Clinical Features vs Readmission
 
-![Clinical Features vs Readmission](visualizations/04_numeric_vs_readmission.png)
+![Clinical Features vs Readmission](06_visualizations/04_numeric_vs_readmission.png)
 
 *Comparison of key clinical variables including hospital stay, laboratory procedures, medications, diagnoses, and healthcare utilization between readmitted and non-readmitted patients.*
 
 
 ### Correlation Analysis
 
-![Correlation Matrix](visualizations/06_correlation_matrix.png)
+![Correlation Matrix](06_visualizations/06_correlation_matrix.png)
 
 *Correlation matrix illustrating relationships among numerical clinical variables and their association with patient readmission.*
 
 ### Model Performance Comparison
 
-![Model Comparison](visualizations/07_model_comparison.png)
+![Model Comparison](06_visualizations/07_model_comparison.png)
 
 *Comparison of Logistic Regression and Random Forest models using Accuracy, Precision, Recall, F1-Score, and ROC-AUC, along with ROC curve evaluation.*
 
 ### Feature Importance
 
-![Feature Importance](visualizations/09_feature_importance.png)
+![Feature Importance](06_visualizations/09_feature_importance.png)
 
 *Top predictive clinical features identified by the Random Forest model, highlighting the factors that contribute most to hospital readmission.*
 
 ### Patient Risk Stratification
 
-![Risk Stratification](visualizations/11_risk_stratification.png)
+![Risk Stratification](06_visualizations/11_risk_stratification.png)
 
 *Patients categorized into Low, Medium, High, and Very High Risk groups based on predicted readmission probabilities, enabling targeted clinical interventions.*
 
 ### Executive Dashboard
 
-![Executive Dashboard](visualizations/12_FINAL_DASHBOARD.png)
+![Executive Dashboard](06_visualizations/12_FINAL_DASHBOARD.png)
 
 *Comprehensive executive dashboard summarizing patient demographics, exploratory analysis, model performance, feature importance, risk stratification, and business impact.*
 
